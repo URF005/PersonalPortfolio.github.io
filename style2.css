@@ -1,0 +1,207 @@
+/* Introduction styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    background: url("Programmer.jpg") no-repeat center center/cover;
+    /* border: 2px solid red; */
+
+}
+
+.intro{
+    font-size:2.5rem ;
+    color: white;
+    margin: 2px 100px;
+
+
+}
+.intro1{
+    font-size:1.5rem ;
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    margin: 2px 100px;
+
+}
+.intro2{
+    font-size:1.2rem ;
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    margin: 2px 100px;
+
+}
+.container2{
+
+    height: 440px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+
+}
+.introduction{
+    
+    height: 174px;
+    padding: 0px 35px;
+}
+.myself{
+
+    font-family: 'Baloo 2', cursive;
+    height: 100px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.butn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn a:hover{
+    color: rgb(206, 202, 202);
+}
+.btn{
+    background-color: black;
+    border-radius: 8px;
+    width: 50px;
+    height: 25px;
+    
+}
+
+@media (max-width:862px) {
+    .myself{
+        font-size: 1rem;
+    }
+    .container2{
+        height: 450px;
+    
+    }
+    .container{
+        height: 190px;
+    }
+    
+    
+}
+@media (max-width:700px) {
+    .myself{
+        font-size: 1rem;
+    }
+    .container2{
+        height:300px;
+    
+    }
+    .btn{
+        border-radius: 8px;
+        width: 45px;
+        height: 25px;
+        
+    }
+    .btn a{
+        font-size: 0.7rem;
+    }
+    .butn{
+        margin-top: 15px;
+    }
+
+    
+}
+@media (max-width:550px) {
+
+    .myself{
+        font-size: 1rem;
+    }
+    .container2{
+        height:450px ;
+    }
+}
+@media (max-width:436px) {
+    .container2{
+        height: 450px;
+    }
+    .myself{
+        font-size: 1rem;
+    }
+    .intro{
+
+        margin-left: 22px;
+    }
+    .intro1{
+        margin-left: 22px;
+    }
+    .intro2{
+    
+        margin-left: 22px;
+    }
+    .btn{
+        border-radius: 6px;
+        width: 40px;
+        height: 25px;
+        
+    }
+    .btn a{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:388px) {
+    
+    .container2{
+        height: 600px;
+    }
+    .intro{
+        font-size:1.5rem;
+        margin-left: 22px;
+    }
+    .intro1{
+        font-size:1rem ;
+        margin-left: 22px;
+    }
+    .intro2{
+        font-size:0.9rem ;
+        margin-left: 22px;
+    }
+    .myself{
+        font-size: 1rem;
+    }
+    
+}
+@media (max-width:314px) {
+    .myself{
+        font-size: 0.9rem;
+    }
+    .container2{
+        height: 550px;
+    }
+    .intro{
+        font-size:2rem;
+        margin-left: 22px;
+    }
+    .intro1{
+        font-size:1rem ;
+        margin-left: 22px;
+    }
+    .intro2{
+        font-size:0.9rem ;
+        margin-left: 22px;
+    }
+    .btn a{
+        font-size: 0.7rem;
+    }
+    .btn{
+        width: 45px;
+        height: 25px;
+    }
+    .butn{
+        margin-top: 50px;
+    }
+    
+}

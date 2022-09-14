@@ -1,0 +1,173 @@
+/* Services Styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("OS.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+.Services{
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+   
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    width: 420px;
+    height: 450px;
+    margin: 30px 12px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px;
+    margin-top: 10px;
+}
+.box img{
+    width: 100px;
+    height: 70px;
+    margin-top: 28px;
+    box-shadow: 0px 5px 10px 0px;
+    border-radius:8px;
+
+}
+.logoname{
+    padding: 12px;
+    color: black;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+}
+.about{
+    font-size: 1rem;
+    margin-top: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.btn{
+    background-color: black;
+    width: 55px;
+    height: 27px;
+    border-radius: 14px;
+    margin: 2px 35px;
+    display:block;
+    margin-bottom: 70px;
+    
+}
+.btn a{
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1rem;
+    
+}
+.btn a:hover{
+    color: rgb(224, 222, 222);
+
+}
+.butn{
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:776px) {
+    .Services{
+        font-size: 1.9rem;
+    }
+    .box img{
+        width: 70px;
+        height: 50px;
+    }
+    .logoname{
+       font-size: 1.1rem;
+    }
+    .about{
+        font-size: 0.9rem;
+    }
+    .btn{
+        width: 50px;
+        height: 25px;
+        border-radius: 12px;
+        
+    }
+    .btn a{
+        font-size: 0.9rem;
+    }
+    
+}
+@media (max-width:602px) {
+
+    .Services{
+        font-size: 1.7rem;
+    }
+    .box img{
+        width: 60px;
+        height: 40px;
+    }
+    .logoname{
+       font-size: 1rem;
+    }
+    .about{
+        font-size: 0.8rem;
+    }
+    @media (max-width:524px) {
+        .Services{
+            font-size: 1.6rem;
+        }
+        .box img{
+            width: 40px;
+            height: 30px;
+            margin-top: 7px;
+        }
+        .logoname{
+           font-size: 0.9rem;
+        }
+        
+        .about{
+            font-size: 0.6rem;
+            text-align: center;
+            margin-top: -12px;
+            font-weight: bold;
+        }
+        .btn{
+            width: 40px;
+            height: 20px;
+            border-radius: 12px;
+            
+        }
+        .btn a{
+            font-size: 0.7rem;
+        }
+        .container1{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+        .box{
+            width: 267px;
+            height: 160px;
+            margin: 2px;
+        }
+        .btn{
+            margin-top: 50px;
+        }
+      
+        
+    }
+        
+    }  
