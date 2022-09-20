@@ -25,7 +25,25 @@
     transition: transform 0.3s ease-in;
     position: absolute;
 }
+.icons{
+    display: flex;
+    margin: 0px auto;
+}
+.icon{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 
+}
+.icon a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+}
+.icon a:hover{
+    font-size: 1.1rem;
+}
 .main{
     display: flex;
     width: 100%;
@@ -134,6 +152,14 @@
         font-size:1.4rem ;
 
     }
+    .icon{
+        color: white;
+    }
+    .icon a{
+        color:white;
+        font-weight: normal;
+    }
+    
 }
 @media (max-width:488px) {
     .cr{
@@ -141,17 +167,17 @@
 
     }
     .intro{
-        font-size: 2rem;
+        font-size: 3rem;
         font-family: 'Libre Baskerville', serif;
     
     }
     .intro1{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         font-family: 'Baloo 2', cursive;
     
     }
     .intro2{
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         font-family: 'Baloo 2', cursive;
     
     }
